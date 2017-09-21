@@ -1,6 +1,6 @@
 define(['jquery','cookie'],function($){
 	//登录功能
-	console.log(12)
+	//console.log(12)
 	$('#loginBtn').click(function(){
             $.ajax({
                 type : 'post',
