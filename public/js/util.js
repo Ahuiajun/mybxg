@@ -15,6 +15,9 @@ define(['jquery'],function($){
 				});
 			}
 			return result;
+		},
+		setMenu:function(path){
+			$('.aside .navs a[href="'+location.pathname+'"]').addClass('active').closest('ul').show();
 		}
 	}
 });
